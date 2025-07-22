@@ -117,3 +117,7 @@ C:\Users\harsh.gupta\source\repos\azure4\azure4\obj\Debug\net9.0\refint\azure4.d
 C:\Users\harsh.gupta\source\repos\azure4\azure4\obj\Debug\net9.0\azure4.pdb
 C:\Users\harsh.gupta\source\repos\azure4\azure4\obj\Debug\net9.0\azure4.genruntimeconfig.cache
 C:\Users\harsh.gupta\source\repos\azure4\azure4\obj\Debug\net9.0\ref\azure4.dll
+C:\Users\harsh.gupta\source\repos\azure4\azure4\bin\Debug\net9.0\Microsoft.Bcl.TimeProvider.dll
+C:\Users\harsh.gupta\source\repos\azure4\azure4\bin\Debug\net9.0\Microsoft.FeatureManagement.dll
+C:\Users\harsh.gupta\source\repos\azure4\azure4\bin\Debug\net9.0\Microsoft.FeatureManagement.AspNetCore.dll
+C:\Users\harsh.gupta\source\repos\azure4\azure4\obj\Debug\net9.0\azure4.MvcApplicationPartsAssemblyInfo.cs
