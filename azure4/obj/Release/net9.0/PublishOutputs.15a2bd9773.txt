@@ -1,0 +1,13 @@
+C:\Users\harsh.gupta\source\repos\azure4\azure4\bin\Release\net9.0\publish\azure4.exe
+C:\Users\harsh.gupta\source\repos\azure4\azure4\bin\Release\net9.0\publish\appsettings.Development.json
+C:\Users\harsh.gupta\source\repos\azure4\azure4\bin\Release\net9.0\publish\appsettings.json
+C:\Users\harsh.gupta\source\repos\azure4\azure4\bin\Release\net9.0\publish\azure4.dll
+C:\Users\harsh.gupta\source\repos\azure4\azure4\bin\Release\net9.0\publish\azure4.deps.json
+C:\Users\harsh.gupta\source\repos\azure4\azure4\bin\Release\net9.0\publish\azure4.runtimeconfig.json
+C:\Users\harsh.gupta\source\repos\azure4\azure4\bin\Release\net9.0\publish\azure4.pdb
+C:\Users\harsh.gupta\source\repos\azure4\azure4\bin\Release\net9.0\publish\System.Data.SqlClient.dll
+C:\Users\harsh.gupta\source\repos\azure4\azure4\bin\Release\net9.0\publish\runtimes\win-arm64\native\sni.dll
+C:\Users\harsh.gupta\source\repos\azure4\azure4\bin\Release\net9.0\publish\runtimes\win-x64\native\sni.dll
+C:\Users\harsh.gupta\source\repos\azure4\azure4\bin\Release\net9.0\publish\runtimes\win-x86\native\sni.dll
+C:\Users\harsh.gupta\source\repos\azure4\azure4\bin\Release\net9.0\publish\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\harsh.gupta\source\repos\azure4\azure4\bin\Release\net9.0\publish\runtimes\win\lib\net8.0\System.Data.SqlClient.dll

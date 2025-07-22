@@ -1,0 +1,34 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core Staging environment</a>.</p>
+</div>
+
+<h2>Azure Learning Modules</h2>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Module</th>
+                <th>Category</th>
+                <th>Status</th>
+                <th>Score</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.AzureModules)
+            {
+                <tr>
+                    <td>@item.ModuleName</td>
+                    <td>@item.Category</td>
+                    <td>@item.CompletionStatus</td>
+                    <td>@(item.Score.HasValue? item.Score.ToString() : "N/A")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
