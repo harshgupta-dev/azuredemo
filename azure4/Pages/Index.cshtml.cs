@@ -7,7 +7,6 @@ namespace azure4.Pages
     public class IndexModel : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
-        var ii = 0/2;
         private readonly IConfiguration _configuration;
         public List<AzureLearningDto> AzureModules { get; set; } = new();
         public List<AzureAssessmentDto> Assessments { get; set; } = new();
