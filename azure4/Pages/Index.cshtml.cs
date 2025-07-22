@@ -41,29 +41,29 @@ namespace azure4.Pages
 
             }
 
-            // using (var conn = new SqlConnection(connectionString))
-            // {
+            using (var conn = new SqlConnection(connectionString))
+            {
 
-            //     conn.Open();
-            //     var cmdAssessment = new SqlCommand("select * from AzureAssessment join AzureLearning on AzureAssessment.ModuleID = AzureLearning.ID", conn);
-            //     var reader = cmdAssessment.ExecuteReader();
+                conn.Open();
+                var cmdAssessment = new SqlCommand("select * from AzureAssessment join AzureLearning on AzureAssessment.ModuleID = AzureLearning.ID", conn);
+                var reader = cmdAssessment.ExecuteReader();
 
-            //     while (reader.Read())
-            //     {
-            //         Assessments.Add(new AzureAssessmentDto
-            //         {
-            //             AssessmentId = (int)reader["AssessmentId"],
-            //             ModuleId = (int)reader["ModuleId"],
-            //             AttemptDate = (DateTime)reader["AttemptDate"],
-            //             Score = (int)reader["Score"],
-            //             Feedback = reader["Feedback"]?.ToString(),
-            //             Passed = (bool)reader["Passed"],
-            //             AttemptNumber = (int)reader["AttemptNumber"],
-            //             ModuleName = reader["ModuleName"]?.ToString()
-            //         });
-            //     }
+                while (reader.Read())
+                {
+                    Assessments.Add(new AzureAssessmentDto
+                    {
+                        AssessmentId = (int)reader["AssessmentId"],
+                        ModuleId = (int)reader["ModuleId"],
+                        AttemptDate = (DateTime)reader["AttemptDate"],
+                        Score = (int)reader["Score"],
+                        Feedback = reader["Feedback"]?.ToString(),
+                        Passed = (bool)reader["Passed"],
+                        AttemptNumber = (int)reader["AttemptNumber"],
+                        ModuleName = reader["ModuleName"]?.ToString()
+                    });
+                }
 
-            // }
+            }
         }
     }
 

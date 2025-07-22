@@ -32,3 +32,31 @@
             }
         </tbody>
     </table>
+
+<h2>Azure Assessment History</h2>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Module</th>
+                <th>Attempt Date</th>
+                <th>Score</th>
+                <th>Passed</th>
+                <th>Attempt #</th>
+                <th>Feedback</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Assessments)
+            {
+                <tr>
+                    <td>@item.ModuleName</td>
+                    <td>@item.AttemptDate.ToString("yyyy-MM-dd HH:mm")</td>
+                    <td>@item.Score</td>
+                    <td>@(item.Passed ? "Yes" : "No")</td>
+                    <td>@item.AttemptNumber</td>
+                    <td>@(string.IsNullOrWhiteSpace(item.Feedback) ? "—" : item.Feedback)</td>
+                </tr>
+            }
+        </tbody>
+    </table>    
