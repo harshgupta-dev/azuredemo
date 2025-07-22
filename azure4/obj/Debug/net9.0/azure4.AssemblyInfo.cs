@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("azure4")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b512d57f2d253d61c09b9c11430f3bc235c5301")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23ed95d10df101a07a92d32cbf28e7820ae253aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("azure4")]
 [assembly: System.Reflection.AssemblyTitleAttribute("azure4")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

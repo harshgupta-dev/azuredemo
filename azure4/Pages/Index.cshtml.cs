@@ -22,7 +22,7 @@ namespace azure4.Pages
             //return;
             //string connectionString = _configuration.GetConnectionString("DefaultConnection");
             var section = _configuration.GetSection("Common:Settings");
-            string connectionString = _configuration.GetValue<string>("dbconnection");
+            string connectionString = section.GetValue<string>("dbconnection");
 
             using (var conn = new SqlConnection(connectionString))
             {
