@@ -2,6 +2,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Configuration.AddAzureAppConfiguration("Endpoint=https://applicationconfigharsh.azconfig.io;Id=xuIP;Secret=2IYlwK45MbS1rmTR4xLB6J8f0B5d3xNYp8Xwu6CEBWGWe2HG38toJQQJ99BGACBsN54axwQzAAABAZAC2uZ2");
 
 var app = builder.Build();
 
