@@ -8,7 +8,7 @@ builder.Services.AddRazorPages();
 builder.Configuration.AddAzureAppConfiguration(
     options =>
     {
-        options.Connect("Endpoint=https://applicationconfigharsh.azconfig.io;Id=xuIP;Secret=2IYlwK45MbS1rmTR4xLB6J8f0B5d3xNYp8Xwu6CEBWGWe2HG38toJQQJ99BGACBsN54axwQzAAABAZAC2uZ2");
+        options.Connect("Endpoint=https://democonfigharsh.azconfig.io;Id=36/y;Secret=9fgOe8R782nw12VuRTznx3fRnIWEtD2ozcsA7C5S6eVcz1bZ4igHJQQJ99BGACBsN54axwQzAAABAZAC4YJQ");
         options.UseFeatureFlags();
     }
     );
